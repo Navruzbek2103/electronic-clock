@@ -39,6 +39,7 @@ body{
 .timeSec{
   position: absolute;
   top: 37%;
+  font-family: "Alarm clock";
   left: calc(100% - 208px);
   max-width: 250px;
   font-size: 30px;
