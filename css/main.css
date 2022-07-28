@@ -57,7 +57,7 @@ body{
   font-family: "Monotype Corsiva";
   font-size: 18px;
   color: rgb(98, 97, 97);
-  text-shadow: 0 0 10px rgb(0, 42, 255);
+  text-shadow: 1px 1px 1px rgb(0, 42, 255);
 }
 
 .date{
