@@ -31,12 +31,14 @@ body{
   font-family: "Alarm clock";
   position: absolute;
   top: 30%;
-  /* left: 18%; */
   color: white;
   font-size: 50px;
+  text-shadow: 0 0 7px cyan;
+  z-index: 2;
 }
 
 .timeSec{
+  text-shadow: 0 0 3px red;
   position: absolute;
   top: 37%;
   font-family: "Alarm clock";
@@ -60,6 +62,7 @@ body{
 .date{
   position: absolute;
   top: 55%;
+  text-shadow: 0 0 3px red;
   max-width: 250px;
   width: 100%;
   font-family: "Alarm clock";
