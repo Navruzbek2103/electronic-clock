@@ -26,34 +26,44 @@ body{
 }
 
 .time{
-  max-width: 250px;
+  max-width: 205px;
   width: 100%;
   font-family: "Alarm clock";
   position: absolute;
   top: 30%;
   /* left: 18%; */
   color: white;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .timeSec{
   position: absolute;
-  top: 51%;
-  font-family: "Alarm clock";
+  top: 37%;
+  left: calc(100% - 205px);
   max-width: 250px;
-  font-size: 22px;
+  font-size: 30px;
   width: 100%;
   color: rgb(169, 167, 167);
 }
 
+.name{
+  position: absolute;
+  top: 51%;
+  max-width: 250px;
+  width: 100%;
+  font-family: "Monotype Corsiva";
+  font-size: 18px;
+  color: rgb(98, 97, 97);
+}
+
 .date{
   position: absolute;
-  top: 59%;
+  top: 55%;
   max-width: 250px;
   width: 100%;
   font-family: "Alarm clock";
-  color: rgb(173, 171, 171);
+  color: rgb(129, 127, 127);
   font-weight: 700;
   font-style: italic;
-  font-size: 25px;
+  font-size: 35px;
 }
