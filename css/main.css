@@ -40,7 +40,7 @@ body{
 .timeSec{
   text-shadow: 0 0 3px brown;
   position: absolute;
-  top: 38%;
+  top: 36%;
   font-family: "Alarm clock";
   left: calc(100% - 208px);
   max-width: 250px;
@@ -51,7 +51,7 @@ body{
 
 .name{
   position: absolute;
-  top: 51%;
+  top: 49%;
   max-width: 250px;
   width: 100%;
   font-family: "Monotype Corsiva";
