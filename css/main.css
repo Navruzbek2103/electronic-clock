@@ -26,7 +26,7 @@ body{
 }
 
 .time{
-  max-width: 205px;
+  max-width: 203px;
   width: 100%;
   font-family: "Alarm clock";
   position: absolute;
@@ -39,7 +39,7 @@ body{
 .timeSec{
   position: absolute;
   top: 37%;
-  left: calc(100% - 205px);
+  left: calc(100% - 208px);
   max-width: 250px;
   font-size: 30px;
   width: 100%;
