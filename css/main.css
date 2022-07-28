@@ -55,9 +55,9 @@ body{
   max-width: 250px;
   width: 100%;
   font-family: "Monotype Corsiva";
-  font-size: 18px;
+  font-size: 17px;
+  font-style: italic;
   color: rgb(98, 97, 97);
-  text-shadow: 1px 1px 1px rgb(0, 42, 255);
 }
 
 .date{
