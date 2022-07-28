@@ -38,9 +38,9 @@ body{
 }
 
 .timeSec{
-  text-shadow: 0 0 3px red;
+  text-shadow: 0 0 3px brown;
   position: absolute;
-  top: 37%;
+  top: 38%;
   font-family: "Alarm clock";
   left: calc(100% - 208px);
   max-width: 250px;
@@ -62,7 +62,6 @@ body{
 .date{
   position: absolute;
   top: 55%;
-  text-shadow: 0 0 3px red;
   max-width: 250px;
   width: 100%;
   font-family: "Alarm clock";
