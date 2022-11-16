@@ -14,6 +14,8 @@ var date = document.createElement("p");
 function showDate(){
   var newDate = new Date()
 
+
+
   containerDiv.className = "container";
   infoHeading.className = "info";
   infoHeading.textContent = "Real time";
@@ -25,6 +27,9 @@ function showDate(){
   author.className = "name";
   author.textContent = "By: Navruzbek"
   date.className = "date";
+
+
+
 
 
   elBody.appendChild(containerDiv)
@@ -40,11 +45,13 @@ function showDate(){
 
 
 
+
   document.querySelector(".time").textContent = newDate.getHours() + " : " + newDate.getMinutes()
 
   document.querySelector(".timeSec").textContent = " : " + newDate.getSeconds()
 
-  document.querySelector(".date").textContent = newDate.getDate() + ". " + newDate.getMonth() + ". " + newDate.getFullYear()
+  document.querySelector(".date").textContent = newDate.getDate() + ". " + (newDate.getMonth() + 1) + ". " + newDate.getFullYear()
+
 }
 
 setInterval(function(){
